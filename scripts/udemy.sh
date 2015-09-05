@@ -9,8 +9,6 @@ echo " #	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒�
 echo " "
 
 
-sudo curl https://bootstrap.pypa.io/get-pip.py | python
-sudo pip install udemy-dl
 
 echo " "
 echo "#########################"
