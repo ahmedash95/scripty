@@ -67,6 +67,15 @@ sudo apt-get install phpmyadmin apache2-utils -y
 echo 'Include /etc/phpmyadmin/apache.conf' >> /etc/apache2/apache2.conf
 
 echo " "
+echo "###########################"
+echo "Enable Apache Rewrite Mode"
+echo "###########################"
+echo " "
+
+sudo a2enmod rewrite
+
+
+echo " "
 echo "#################"
 echo "RESTARTING APACHE"
 echo "#################"
